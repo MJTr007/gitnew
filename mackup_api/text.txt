@@ -1,0 +1,40 @@
+
+<div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    Info
+  </button>
+  <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
+  ${makeup1[i].description}
+  </div>
+</div>
+
+<div class="overflow-auto">
+          ${makeup1[i].description}
+          </div>
+
+
+<!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    Info
+  </button>
+  <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
+  <p>
+    ${makeup1[i].description}
+  </p> 
+</div>
+</div>
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Navbar</a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+
+var head= document.createElement("H1");
+ head.className="head";
+ head.innerHTML="Beautify";
+ head.style.textAlign="center";
+
